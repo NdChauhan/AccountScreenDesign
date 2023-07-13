@@ -1,0 +1,16 @@
+PODS:
+  - StepIndicator (1.0.8)
+
+DEPENDENCIES:
+  - StepIndicator
+
+SPEC REPOS:
+  trunk:
+    - StepIndicator
+
+SPEC CHECKSUMS:
+  StepIndicator: 748b293f671355b021253f82031ac002f153dc81
+
+PODFILE CHECKSUM: 3375cc08f44785ec05e584b44b6e44b26e80f2bb
+
+COCOAPODS: 1.11.3

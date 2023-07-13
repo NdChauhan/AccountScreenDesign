@@ -13,9 +13,34 @@
 		B4579FE02A5F1B960095CA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4579FDE2A5F1B960095CA4A /* Main.storyboard */; };
 		B4579FE22A5F1B990095CA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4579FE12A5F1B990095CA4A /* Assets.xcassets */; };
 		B4579FE52A5F1B990095CA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4579FE32A5F1B990095CA4A /* LaunchScreen.storyboard */; };
+		B4579FED2A5F1BC60095CA4A /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4579FEC2A5F1BC60095CA4A /* CreateAccountVC.swift */; };
+		B457A0012A5F1F7F0095CA4A /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FEF2A5F1F7A0095CA4A /* Poppins-BoldItalic.ttf */; };
+		B457A0022A5F1F7F0095CA4A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF02A5F1F7A0095CA4A /* Poppins-Medium.ttf */; };
+		B457A0032A5F1F7F0095CA4A /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF12A5F1F7A0095CA4A /* Poppins-ExtraBoldItalic.ttf */; };
+		B457A0042A5F1F7F0095CA4A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF22A5F1F7B0095CA4A /* Poppins-SemiBold.ttf */; };
+		B457A0052A5F1F7F0095CA4A /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF32A5F1F7B0095CA4A /* Poppins-SemiBoldItalic.ttf */; };
+		B457A0062A5F1F7F0095CA4A /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF42A5F1F7B0095CA4A /* Poppins-ExtraLightItalic.ttf */; };
+		B457A0072A5F1F7F0095CA4A /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF52A5F1F7C0095CA4A /* Poppins-Black.ttf */; };
+		B457A0082A5F1F7F0095CA4A /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF62A5F1F7C0095CA4A /* Poppins-Italic.ttf */; };
+		B457A0092A5F1F7F0095CA4A /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF72A5F1F7C0095CA4A /* Poppins-LightItalic.ttf */; };
+		B457A00A2A5F1F7F0095CA4A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF82A5F1F7C0095CA4A /* Poppins-Regular.ttf */; };
+		B457A00B2A5F1F7F0095CA4A /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FF92A5F1F7D0095CA4A /* Poppins-ThinItalic.ttf */; };
+		B457A00C2A5F1F7F0095CA4A /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FFA2A5F1F7D0095CA4A /* Poppins-ExtraLight.ttf */; };
+		B457A00D2A5F1F7F0095CA4A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FFB2A5F1F7D0095CA4A /* Poppins-Bold.ttf */; };
+		B457A00E2A5F1F7F0095CA4A /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FFC2A5F1F7E0095CA4A /* Poppins-Thin.ttf */; };
+		B457A00F2A5F1F7F0095CA4A /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FFD2A5F1F7E0095CA4A /* Poppins-ExtraBold.ttf */; };
+		B457A0102A5F1F7F0095CA4A /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FFE2A5F1F7E0095CA4A /* Poppins-BlackItalic.ttf */; };
+		B457A0112A5F1F7F0095CA4A /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4579FFF2A5F1F7F0095CA4A /* Poppins-Light.ttf */; };
+		B457A0122A5F1F7F0095CA4A /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B457A0002A5F1F7F0095CA4A /* Poppins-MediumItalic.ttf */; };
+		B457A0152A5F31360095CA4A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B457A0142A5F31360095CA4A /* Extension.swift */; };
+		B457A0172A5F31900095CA4A /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B457A0162A5F31900095CA4A /* AccountCell.swift */; };
+		B457A0192A5F31CF0095CA4A /* ProfileModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B457A0182A5F31CF0095CA4A /* ProfileModule.swift */; };
+		C86B0E1A19E978F4B3A42F59 /* Pods_CreativeHustlePractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32191BE1661C058CFA07983 /* Pods_CreativeHustlePractical.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EFF06701D277A55AA33CF59 /* Pods-CreativeHustlePractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreativeHustlePractical.debug.xcconfig"; path = "Target Support Files/Pods-CreativeHustlePractical/Pods-CreativeHustlePractical.debug.xcconfig"; sourceTree = "<group>"; };
+		A32191BE1661C058CFA07983 /* Pods_CreativeHustlePractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreativeHustlePractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4579FD52A5F1B960095CA4A /* CreativeHustlePractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeHustlePractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4579FD82A5F1B960095CA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4579FDA2A5F1B960095CA4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,29 @@
 		B4579FE12A5F1B990095CA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4579FE42A5F1B990095CA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4579FE62A5F1B990095CA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4579FEC2A5F1BC60095CA4A /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		B4579FEF2A5F1F7A0095CA4A /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B4579FF02A5F1F7A0095CA4A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		B4579FF12A5F1F7A0095CA4A /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B4579FF22A5F1F7B0095CA4A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		B4579FF32A5F1F7B0095CA4A /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B4579FF42A5F1F7B0095CA4A /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B4579FF52A5F1F7C0095CA4A /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		B4579FF62A5F1F7C0095CA4A /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		B4579FF72A5F1F7C0095CA4A /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		B4579FF82A5F1F7C0095CA4A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B4579FF92A5F1F7D0095CA4A /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B4579FFA2A5F1F7D0095CA4A /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B4579FFB2A5F1F7D0095CA4A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B4579FFC2A5F1F7E0095CA4A /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		B4579FFD2A5F1F7E0095CA4A /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B4579FFE2A5F1F7E0095CA4A /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B4579FFF2A5F1F7F0095CA4A /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		B457A0002A5F1F7F0095CA4A /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B457A0142A5F31360095CA4A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B457A0162A5F31900095CA4A /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		B457A0182A5F31CF0095CA4A /* ProfileModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModule.swift; sourceTree = "<group>"; };
+		EDED911CB1AF2852AB8FB19B /* Pods-CreativeHustlePractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreativeHustlePractical.release.xcconfig"; path = "Target Support Files/Pods-CreativeHustlePractical/Pods-CreativeHustlePractical.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86B0E1A19E978F4B3A42F59 /* Pods_CreativeHustlePractical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46E0F357398CFB5352EE3A62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF06701D277A55AA33CF59 /* Pods-CreativeHustlePractical.debug.xcconfig */,
+				EDED911CB1AF2852AB8FB19B /* Pods-CreativeHustlePractical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AE50E0695846CD8B7677A01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A32191BE1661C058CFA07983 /* Pods_CreativeHustlePractical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B4579FCC2A5F1B960095CA4A = {
 			isa = PBXGroup;
 			children = (
 				B4579FD72A5F1B960095CA4A /* CreativeHustlePractical */,
 				B4579FD62A5F1B960095CA4A /* Products */,
+				46E0F357398CFB5352EE3A62 /* Pods */,
+				9AE50E0695846CD8B7677A01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +124,93 @@
 		B4579FD72A5F1B960095CA4A /* CreativeHustlePractical */ = {
 			isa = PBXGroup;
 			children = (
-				B4579FD82A5F1B960095CA4A /* AppDelegate.swift */,
-				B4579FDA2A5F1B960095CA4A /* SceneDelegate.swift */,
-				B4579FDC2A5F1B960095CA4A /* ViewController.swift */,
-				B4579FDE2A5F1B960095CA4A /* Main.storyboard */,
+				B4579FEE2A5F1F660095CA4A /* Fonts */,
+				B457A01F2A5F32FF0095CA4A /* DelegateFiles */,
+				B457A01B2A5F32B60095CA4A /* ViewController */,
+				B457A01C2A5F32CB0095CA4A /* Module */,
+				B457A01E2A5F32E40095CA4A /* Extension */,
+				B457A01D2A5F32D70095CA4A /* Cell */,
+				B457A0202A5F331D0095CA4A /* Storyboard */,
 				B4579FE12A5F1B990095CA4A /* Assets.xcassets */,
-				B4579FE32A5F1B990095CA4A /* LaunchScreen.storyboard */,
 				B4579FE62A5F1B990095CA4A /* Info.plist */,
 			);
 			path = CreativeHustlePractical;
+			sourceTree = "<group>";
+		};
+		B4579FEE2A5F1F660095CA4A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B4579FF52A5F1F7C0095CA4A /* Poppins-Black.ttf */,
+				B4579FFE2A5F1F7E0095CA4A /* Poppins-BlackItalic.ttf */,
+				B4579FFB2A5F1F7D0095CA4A /* Poppins-Bold.ttf */,
+				B4579FEF2A5F1F7A0095CA4A /* Poppins-BoldItalic.ttf */,
+				B4579FFD2A5F1F7E0095CA4A /* Poppins-ExtraBold.ttf */,
+				B4579FF12A5F1F7A0095CA4A /* Poppins-ExtraBoldItalic.ttf */,
+				B4579FFA2A5F1F7D0095CA4A /* Poppins-ExtraLight.ttf */,
+				B4579FF42A5F1F7B0095CA4A /* Poppins-ExtraLightItalic.ttf */,
+				B4579FF62A5F1F7C0095CA4A /* Poppins-Italic.ttf */,
+				B4579FFF2A5F1F7F0095CA4A /* Poppins-Light.ttf */,
+				B4579FF72A5F1F7C0095CA4A /* Poppins-LightItalic.ttf */,
+				B4579FF02A5F1F7A0095CA4A /* Poppins-Medium.ttf */,
+				B457A0002A5F1F7F0095CA4A /* Poppins-MediumItalic.ttf */,
+				B4579FF82A5F1F7C0095CA4A /* Poppins-Regular.ttf */,
+				B4579FF22A5F1F7B0095CA4A /* Poppins-SemiBold.ttf */,
+				B4579FF32A5F1F7B0095CA4A /* Poppins-SemiBoldItalic.ttf */,
+				B4579FFC2A5F1F7E0095CA4A /* Poppins-Thin.ttf */,
+				B4579FF92A5F1F7D0095CA4A /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B457A01B2A5F32B60095CA4A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B4579FDC2A5F1B960095CA4A /* ViewController.swift */,
+				B4579FEC2A5F1BC60095CA4A /* CreateAccountVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B457A01C2A5F32CB0095CA4A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B457A0182A5F31CF0095CA4A /* ProfileModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		B457A01D2A5F32D70095CA4A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B457A0162A5F31900095CA4A /* AccountCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B457A01E2A5F32E40095CA4A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B457A0142A5F31360095CA4A /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B457A01F2A5F32FF0095CA4A /* DelegateFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B4579FD82A5F1B960095CA4A /* AppDelegate.swift */,
+				B4579FDA2A5F1B960095CA4A /* SceneDelegate.swift */,
+			);
+			path = DelegateFiles;
+			sourceTree = "<group>";
+		};
+		B457A0202A5F331D0095CA4A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B4579FDE2A5F1B960095CA4A /* Main.storyboard */,
+				B4579FE32A5F1B990095CA4A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4579FE92A5F1B990095CA4A /* Build configuration list for PBXNativeTarget "CreativeHustlePractical" */;
 			buildPhases = (
+				F3A7BC8AC0A731631B4E0606 /* [CP] Check Pods Manifest.lock */,
 				B4579FD12A5F1B960095CA4A /* Sources */,
 				B4579FD22A5F1B960095CA4A /* Frameworks */,
 				B4579FD32A5F1B960095CA4A /* Resources */,
+				A32043F5AAEAFE8FACDD2A37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +273,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B457A00C2A5F1F7F0095CA4A /* Poppins-ExtraLight.ttf in Resources */,
+				B457A0032A5F1F7F0095CA4A /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				B457A0052A5F1F7F0095CA4A /* Poppins-SemiBoldItalic.ttf in Resources */,
+				B457A00E2A5F1F7F0095CA4A /* Poppins-Thin.ttf in Resources */,
+				B457A00D2A5F1F7F0095CA4A /* Poppins-Bold.ttf in Resources */,
+				B457A00A2A5F1F7F0095CA4A /* Poppins-Regular.ttf in Resources */,
+				B457A0042A5F1F7F0095CA4A /* Poppins-SemiBold.ttf in Resources */,
+				B457A0062A5F1F7F0095CA4A /* Poppins-ExtraLightItalic.ttf in Resources */,
+				B457A00B2A5F1F7F0095CA4A /* Poppins-ThinItalic.ttf in Resources */,
+				B457A0072A5F1F7F0095CA4A /* Poppins-Black.ttf in Resources */,
+				B457A00F2A5F1F7F0095CA4A /* Poppins-ExtraBold.ttf in Resources */,
+				B457A0112A5F1F7F0095CA4A /* Poppins-Light.ttf in Resources */,
 				B4579FE52A5F1B990095CA4A /* LaunchScreen.storyboard in Resources */,
 				B4579FE22A5F1B990095CA4A /* Assets.xcassets in Resources */,
+				B457A0092A5F1F7F0095CA4A /* Poppins-LightItalic.ttf in Resources */,
+				B457A0082A5F1F7F0095CA4A /* Poppins-Italic.ttf in Resources */,
 				B4579FE02A5F1B960095CA4A /* Main.storyboard in Resources */,
+				B457A0102A5F1F7F0095CA4A /* Poppins-BlackItalic.ttf in Resources */,
+				B457A0012A5F1F7F0095CA4A /* Poppins-BoldItalic.ttf in Resources */,
+				B457A0122A5F1F7F0095CA4A /* Poppins-MediumItalic.ttf in Resources */,
+				B457A0022A5F1F7F0095CA4A /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A32043F5AAEAFE8FACDD2A37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreativeHustlePractical/Pods-CreativeHustlePractical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreativeHustlePractical/Pods-CreativeHustlePractical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreativeHustlePractical/Pods-CreativeHustlePractical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A7BC8AC0A731631B4E0606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreativeHustlePractical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B4579FD12A5F1B960095CA4A /* Sources */ = {
@@ -140,7 +348,11 @@
 			files = (
 				B4579FDD2A5F1B960095CA4A /* ViewController.swift in Sources */,
 				B4579FD92A5F1B960095CA4A /* AppDelegate.swift in Sources */,
+				B4579FED2A5F1BC60095CA4A /* CreateAccountVC.swift in Sources */,
+				B457A0152A5F31360095CA4A /* Extension.swift in Sources */,
 				B4579FDB2A5F1B960095CA4A /* SceneDelegate.swift in Sources */,
+				B457A0192A5F31CF0095CA4A /* ProfileModule.swift in Sources */,
+				B457A0172A5F31900095CA4A /* AccountCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +494,7 @@
 		};
 		B4579FEA2A5F1B990095CA4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFF06701D277A55AA33CF59 /* Pods-CreativeHustlePractical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +522,7 @@
 		};
 		B4579FEB2A5F1B990095CA4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDED911CB1AF2852AB8FB19B /* Pods-CreativeHustlePractical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
